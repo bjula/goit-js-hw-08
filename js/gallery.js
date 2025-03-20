@@ -65,7 +65,7 @@ const images = [
   ];
 
   const refs = {
-    container: document.querySelector(".gallery"),
+    container: document.querySelector(".gallery")
   };
 
   function galleryTetmplate(image){
@@ -100,7 +100,7 @@ const images = [
   
   refs.container.addEventListener('mouseout', e => {
     if (e.target.nodeName === 'IMG') {
-      e.target.style.transform = 'scale(1)';
+      e.target.style.transform = 'scale(1)'
     }
   });
 
